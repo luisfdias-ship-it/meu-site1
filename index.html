@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hub Sinérgico — Conectando empreendedores</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .container-lg { max-width: 1100px; }
+  </style>
+</head>
+<body class="antialiased text-gray-800 bg-gray-50">
+  <!-- Navbar -->
+  <header class="shadow-sm bg-white sticky top-0 z-40">
+    <div class="container-lg mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <img src="https://img.icons8.com/color/48/000000/network.png" alt="logo" class="w-9 h-9" />
+        <span class="text-lg font-semibold">Hub Sinérgico</span>
+      </a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#quem-somos" class="hover:text-blue-600">Quem Somos</a>
+        <a href="#missao" class="hover:text-blue-600">Missão, Visão e Valores</a>
+        <a href="#servicos" class="hover:text-blue-600">Serviços</a>
+        <a href="#contato" class="hover:text-blue-600">Contato</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="#contato" class="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm">Cadastre sua empresa</a>
+      </div>
+      <button id="mobileBtn" class="md:hidden">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18M3 12h18M3 18h18" stroke="#1F2937" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#home">Home</a>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#missao">Missão, Visão e Valores</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="container-lg mx-auto px-6 py-14 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">Conectando empreendedores.<br/>Criando oportunidades</h1>
+        <p class="mt-6 text-gray-600 max-w-xl">Uma plataforma que conecta pequenos e médios empreendedores de setores complementares para cooperar, reduzir custos e aproveitar oportunidades de mercado.</p>
+        <div class="mt-8 flex gap-4">
+          <a href="#contato" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow">Cadastre sua empresa</a>
+          <a href="#servicos" class="px-6 py-3 border border-gray-200 rounded-lg">Ver serviços</a>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/6173/6173858.png" alt="Ilustração de empreendedores" class="w-full max-w-md" />
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="bg-white py-12">
+      <div class="container-lg mx-auto px-6">
+        <h2 class="text-2xl font-bold mb-8">Serviços</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="p-6 bg-gray-50 rounded-xl shadow-sm text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png" alt="Coopera+" class="mx-auto w-12 h-12 mb-4" />
+            <h3 class="font-semibold mb-2">Coopera+</h3>
+            <p class="text-sm text-gray-600">Ferramenta de cooperação, negociação conjunta e compartilhamento de dados.</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow-sm text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/706/706195.png" alt="Conexão" class="mx-auto w-12 h-12 mb-4" />
+            <h3 class="font-semibold mb-2">Conexão de empreendedores</h3>
+            <p class="text-sm text-gray-600">Matching entre empresas complementares para parcerias.</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow-sm text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/869/869636.png" alt="Marketplace" class="mx-auto w-12 h-12 mb-4" />
+            <h3 class="font-semibold mb-2">Marketplace de fornecedores</h3>
+            <p class="text-sm text-gray-600">Lista de fornecedores com possibilidade de compras coletivas.</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-xl shadow-sm text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/2920/2920224.png" alt="Inteligência" class="mx-auto w-12 h-12 mb-4" />
+            <h3 class="font-semibold mb-2">Inteligência de negócios</h3>
+            <p class="text-sm text-gray-600">Painéis e dados de mercado para tomada de decisão.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quem somos -->
+    <section id="quem-somos" class="py-12">
+      <div class="container-lg mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-2xl font-bold mb-4">Quem somos</h2>
+          <p class="text-gray-600">Somos uma plataforma dedicada a conectar pequenos e médios empreendedores para que, juntos, possam competir melhor no mercado, reduzir custos e criar oportunidades.</p>
+        </div>
+        <div class="flex justify-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/1999/1999625.png" alt="Equipe" class="w-64" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Missão / Visão / Valores -->
+    <section id="missao" class="bg-white py-12">
+      <div class="container-lg mx-auto px-6">
+        <h2 class="text-2xl font-bold mb-8">Missão, Visão e Valores</h2>
+        <div class="grid md:grid-cols-3 gap-6 text-center">
+          <div class="p-6 rounded-lg bg-gray-50">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Missão" class="mx-auto w-12 h-12 mb-4" />
+            <h3 class="font-semibold mb-2">Missão</h3>
+            <p class="text-sm text-gray-600">Conectar empreendedores para crescer juntos com transparência.</p>
+          </div>
+          <div class="p-6 rounded-lg bg-gray-50">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Visão" class="mx-auto w-12 h-12 mb-4" />
+            <h3 class="font-semibold mb-2">Visão</h3>
+            <p class="text-sm text-gray-600">Ser a principal plataforma de cooperação entre PMEs.</p>
+          </div>
+          <div class="p-6 rounded-lg bg-gray-50">
+            <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" alt="Valores" class="mx-auto w-12 h-12 mb-4" />
+            <h3 class="font-semibold mb-2">Valores</h3>
+            <p class="text-sm text-gray-600">Colaboração, transparência e foco em resultados.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-12">
+      <div class="container-lg mx-auto px-6 grid md:grid-cols-2 gap-8">
+        <div>
+          <h2 class="text-2xl font-bold mb-4">Contato</h2>
+          <p class="text-gray-600 mb-6">Quer se juntar ao Hub Sinérgico ou tem alguma dúvida? Envie uma mensagem.</p>
+          <img src="https://cdn-icons-png.flaticon.com/512/2981/2981035.png" alt="Contato" class="w-48" />
+        </div>
+        <form class="bg-white rounded-lg p-6 shadow-sm">
+          <label class="block mb-3">
+            <span class="text-sm font-medium">Nome</span>
+            <input type="text" class="mt-1 block w-full rounded-md border-gray-200 shadow-sm" placeholder="Seu nome" />
+          </label>
+          <label class="block mb-3">
+            <span class="text-sm font-medium">E‑mail</span>
+            <input type="email" class="mt-1 block w-full rounded-md border-gray-200 shadow-sm" placeholder="seunome@email.com" />
+          </label>
+          <label class="block mb-3">
+            <span class="text-sm font-medium">Mensagem</span>
+            <textarea rows="4" class="mt-1 block w-full rounded-md border-gray-200 shadow-sm" placeholder="Como podemos ajudar?"></textarea>
+          </label>
+          <div class="text-right">
+            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-lg">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-gray-200 py-8 mt-12">
+    <div class="container-lg mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div>© <strong>Hub Sinérgico</strong> — Todos os direitos reservados</div>
+      <div class="text-sm">Feito com ♥ • Sua empresa</div>
+    </div>
+  </footer>
+
+  <script>
+    const mobileBtn = document.getElementById('mobileBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
