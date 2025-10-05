@@ -10,6 +10,7 @@
   </style>
 </head>
 <body class="antialiased text-gray-800 bg-gray-50">
+
   <!-- Navbar -->
   <header class="shadow-sm bg-white sticky top-0 z-40">
     <div class="container-lg mx-auto px-6 py-4 flex items-center justify-between">
@@ -22,6 +23,7 @@
         <a href="#quem-somos" class="hover:text-blue-600">Quem Somos</a>
         <a href="#missao" class="hover:text-blue-600">Missão, Visão e Valores</a>
         <a href="#servicos" class="hover:text-blue-600">Serviços</a>
+        <a href="#planos" class="hover:text-blue-600">Planos</a>
         <a href="#contato" class="hover:text-blue-600">Contato</a>
       </nav>
       <div class="hidden md:block">
@@ -37,6 +39,7 @@
         <a href="#quem-somos">Quem Somos</a>
         <a href="#missao">Missão, Visão e Valores</a>
         <a href="#servicos">Serviços</a>
+        <a href="#planos">Planos</a>
         <a href="#contato">Contato</a>
       </div>
     </div>
@@ -87,39 +90,54 @@
       </div>
     </section>
 
-    <!-- Quem somos -->
-    <section id="quem-somos" class="py-12">
-      <div class="container-lg mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
-        <div>
-          <h2 class="text-2xl font-bold mb-4">Quem somos</h2>
-          <p class="text-gray-600">Somos uma plataforma dedicada a conectar pequenos e médios empreendedores para que, juntos, possam competir melhor no mercado, reduzir custos e criar oportunidades.</p>
-        </div>
-        <div class="flex justify-center">
-          <img src="https://cdn-icons-png.flaticon.com/512/1999/1999625.png" alt="Equipe" class="w-64" />
-        </div>
-      </div>
-    </section>
+    <!-- Planos -->
+    <section id="planos" class="py-16 bg-gray-50">
+      <div class="container-lg mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-10">Planos de Assinatura</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          
+          <!-- Plano Básico -->
+          <div class="p-8 bg-white rounded-2xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold mb-4">Plano Básico</h3>
+            <p class="text-gray-600 mb-6">Ideal para quem está começando no Hub.</p>
+            <div class="text-4xl font-bold mb-4 text-blue-600">R$ 49<span class="text-lg text-gray-500">/mês</span></div>
+            <ul class="text-sm text-gray-600 mb-6 space-y-2 text-left">
+              <li>✓ Acesso à plataforma</li>
+              <li>✓ Conexão com empreendedores</li>
+              <li>✗ Inteligência de negócios</li>
+              <li>✗ Relatórios avançados</li>
+            </ul>
+            <a href="#contato" class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg">Assinar</a>
+          </div>
 
-    <!-- Missão / Visão / Valores -->
-    <section id="missao" class="bg-white py-12">
-      <div class="container-lg mx-auto px-6">
-        <h2 class="text-2xl font-bold mb-8">Missão, Visão e Valores</h2>
-        <div class="grid md:grid-cols-3 gap-6 text-center">
-          <div class="p-6 rounded-lg bg-gray-50">
-            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Missão" class="mx-auto w-12 h-12 mb-4" />
-            <h3 class="font-semibold mb-2">Missão</h3>
-            <p class="text-sm text-gray-600">Conectar empreendedores para crescer juntos com transparência.</p>
+          <!-- Plano Intermediário -->
+          <div class="p-8 bg-white rounded-2xl shadow-lg border-2 border-blue-600">
+            <h3 class="text-xl font-semibold mb-4">Plano Intermediário</h3>
+            <p class="text-gray-600 mb-6">Para quem quer crescer em rede.</p>
+            <div class="text-4xl font-bold mb-4 text-blue-600">R$ 99<span class="text-lg text-gray-500">/mês</span></div>
+            <ul class="text-sm text-gray-600 mb-6 space-y-2 text-left">
+              <li>✓ Todos os recursos do plano básico</li>
+              <li>✓ Acesso ao Marketplace</li>
+              <li>✓ Suporte prioritário</li>
+              <li>✗ Relatórios avançados</li>
+            </ul>
+            <a href="#contato" class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg">Assinar</a>
           </div>
-          <div class="p-6 rounded-lg bg-gray-50">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Visão" class="mx-auto w-12 h-12 mb-4" />
-            <h3 class="font-semibold mb-2">Visão</h3>
-            <p class="text-sm text-gray-600">Ser a principal plataforma de cooperação entre PMEs.</p>
+
+          <!-- Plano Avançado -->
+          <div class="p-8 bg-white rounded-2xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold mb-4">Plano Avançado</h3>
+            <p class="text-gray-600 mb-6">Para empresas que buscam destaque.</p>
+            <div class="text-4xl font-bold mb-4 text-blue-600">R$ 199<span class="text-lg text-gray-500">/mês</span></div>
+            <ul class="text-sm text-gray-600 mb-6 space-y-2 text-left">
+              <li>✓ Todos os recursos anteriores</li>
+              <li>✓ Relatórios de inteligência de mercado</li>
+              <li>✓ Consultoria personalizada</li>
+              <li>✓ Suporte premium</li>
+            </ul>
+            <a href="#contato" class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg">Assinar</a>
           </div>
-          <div class="p-6 rounded-lg bg-gray-50">
-            <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" alt="Valores" class="mx-auto w-12 h-12 mb-4" />
-            <h3 class="font-semibold mb-2">Valores</h3>
-            <p class="text-sm text-gray-600">Colaboração, transparência e foco em resultados.</p>
-          </div>
+
         </div>
       </div>
     </section>
@@ -138,7 +156,7 @@
             <input type="text" class="mt-1 block w-full rounded-md border-gray-200 shadow-sm" placeholder="Seu nome" />
           </label>
           <label class="block mb-3">
-            <span class="text-sm font-medium">E‑mail</span>
+            <span class="text-sm font-medium">E-mail</span>
             <input type="email" class="mt-1 block w-full rounded-md border-gray-200 shadow-sm" placeholder="seunome@email.com" />
           </label>
           <label class="block mb-3">
@@ -153,10 +171,46 @@
     </section>
   </main>
 
-  <footer class="bg-gray-800 text-gray-200 py-8 mt-12">
-    <div class="container-lg mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
-      <div>© <strong>Hub Sinérgico</strong> — Todos os direitos reservados</div>
-      <div class="text-sm">Feito com ♥ • Sua empresa</div>
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-gray-200 py-10 mt-12">
+    <div class="container-lg mx-auto px-6 grid md:grid-cols-3 gap-8">
+      
+      <!-- Coluna 1 -->
+      <div>
+        <h4 class="font-semibold mb-3 text-lg">Hub Sinérgico</h4>
+        <p class="text-sm text-gray-400">Conectando empreendedores para cooperar, reduzir custos e crescer juntos.</p>
+        <p class="text-sm mt-3">CNPJ: 12.345.678/0001-99</p>
+        <p class="text-sm">Telefone: (11) 99999-0000</p>
+        <p class="text-sm">E-mail: contato@hubsinergico.com.br</p>
+        <p class="text-sm">Endereço: Av. Inovação, 123 — São Paulo/SP</p>
+      </div>
+
+      <!-- Coluna 2 -->
+      <div>
+        <h4 class="font-semibold mb-3 text-lg">Links úteis</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li><a href="#quem-somos" class="hover:text-white">Quem Somos</a></li>
+          <li><a href="#servicos" class="hover:text-white">Serviços</a></li>
+          <li><a href="#planos" class="hover:text-white">Planos</a></li>
+          <li><a href="#" class="hover:text-white">Trabalhe Conosco</a></li>
+          <li><a href="#" class="hover:text-white">Política de Privacidade</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3 -->
+      <div>
+        <h4 class="font-semibold mb-3 text-lg">Redes sociais</h4>
+        <div class="flex gap-4 text-gray-400">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-6 h-6" /></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="LinkedIn" class="w-6 h-6" /></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384007.png" alt="Facebook" class="w-6 h-6" /></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-400">
+      © 2025 <strong>Hub Sinérgico</strong> — Todos os direitos reservados.
     </div>
   </footer>
 
